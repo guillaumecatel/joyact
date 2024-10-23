@@ -1,0 +1,60 @@
+import { Meta, Typeset, Unstyled } from '@storybook/blocks'
+import { fontFamily, fontWeight, fontSize } from '@joyact/tailwind-config'
+
+<Meta title="Protons/Typography" />
+
+export const fontFamilyValues = fontFamily.sans[0]
+export const fontSizeValues = Object.entries(fontSize).map(([, value]) => `${value[0]}`)
+export const fontWeightValues = Object.entries(fontWeight).map(([key, value]) => `${value}(${key})`).toString()
+
+export const SampleText = 'Joyact.'
+
+# Typography
+
+<Unstyled>
+  <div className='grid grid-cols-12 gap-xl p-xl text-pretty rounded-3xl bg-red text-yellow'>
+    <div className='col-span-12 order-1'>
+      <h1 className='font-regular italic text-display-2 max-w-heading tracking-tighter py-l'>Elegantly scale type and space without breakpoints</h1>
+    </div>
+      <div className='col-span-8 order-2'>
+        <h2 className='font-medium text-bold text-heading-2 max-w-heading racking-tight pb-m'>Thinking of type and space in responsive palettes</h2>
+        <div className=''>
+          <p className='pb-s text-body'>Design and develop rapidly using a handful of related rules, building the system, not every permutation of its contents at arbitrary breakpoints. Streamline communication and collaboration between design and development.</p>
+          <p className='pb-s text-body'>Visualise the invisible: componentize responsive space, codifying its implementation and behavior. <strong>Create bespoke constraints for your projects to ensure consistent and harmonious designs.</strong> Swap jarring breakpoint jumps for buttery-smooth interpolation, with programmatically tailored type and space scales for every screen size.</p>
+        </div>
+        <p className='text-small'>Design and develop rapidly using a handful of related rules, building the system, not every permutation of its contents at arbitrary breakpoints. Streamline communication and collaboration between design and development.</p>
+        <div className='flex flex-col text-heading-5 italic max-w-text py-xl text-center'>
+          "Instead of tightening our grip by loading up on breakpoints, we can let go, embracing the ebb and flow with a more fluid and systematic approach to our design foundations."
+          <div className='pt-m text-center text-very-small'>Celia MANS – Gnagnagna 2024</div>
+        </div>
+        <p className='pb-s text-body'>Design and develop rapidly using a handful of related rules, building the system, not every permutation of its contents at arbitrary breakpoints. Streamline communication and collaboration between design and development.</p>
+        <p className='pb-s text-body'>Visualise the invisible: componentize responsive space, codifying its implementation and behavior. <strong>Create bespoke constraints for your projects to ensure consistent and harmonious designs.</strong> Swap jarring breakpoint jumps for buttery-smooth interpolation, with programmatically tailored type and space scales for every screen size.</p>
+        <p className='pb-s text-small'>Design and develop rapidly using a handful of related rules, building the system, not every permutation of its contents at arbitrary breakpoints. Streamline communication and collaboration between design and development.</p>
+    </div>
+    <div className='col-span-4 order-2 top-0'>
+      <h2 className='font-medium text-heading-5 max-w-heading pb-m'>Designing <wbr/> with fluid typography</h2>
+      <div className=''>
+        <p className='pb-s text-body'>Visualise the invisible: componentize responsive space, codifying its implementation and behavior. Create bespoke constraints for your projects to ensure consistent and harmonious designs. <em>Swap jarring breakpoint jumps for buttery-smooth interpolation, with programmatically tailored type and space scales for every screen size.</em></p>
+      </div>
+      <h2 className='font-regular text-heading-5 max-w-heading pt-l pb-m'>Designing <wbr/> with fluid typography</h2>
+      <div className=''>
+        <p className='pb-s text-body'>Visualise the invisible: componentize responsive space, codifying its implementation and behavior. Create bespoke constraints for your projects to ensure consistent and harmonious designs. <em>Swap jarring breakpoint jumps for buttery-smooth interpolation, with programmatically tailored type and space scales for every screen size.</em></p>
+        <p className='pb-s text-very-small'>We’ll typically start a project by defining a suitable body copy font and size at nominated min and max viewport widths.</p>
+      </div>
+    </div>
+  </div>
+</Unstyled>
+
+## Scaling
+
+**Font:** {fontFamilyValues}
+
+**Weights:** {fontWeightValues}
+
+
+<Typeset
+  fontFamily={fontFamilyValues}
+  fontSizes={fontSizeValues}
+  sampleText={SampleText}
+/>
+

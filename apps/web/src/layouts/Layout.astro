@@ -1,0 +1,43 @@
+---
+
+import { getRelativeLocaleUrl } from 'astro:i18n'
+import { ViewTransitions } from 'astro:transitions'
+
+import { SiteHeader } from '@joyact/ui'
+
+import '@joyact/fonts/safiro'
+
+import '../style.css'
+
+const locale = Astro.currentLocale || 'fr'
+
+const items = [
+  {
+    href: getRelativeLocaleUrl(locale, '/about'),
+    label: 'À propos',
+  },
+  {
+    href: getRelativeLocaleUrl(locale, '/projects'),
+    label: 'Projets',
+  },
+  {
+    href: getRelativeLocaleUrl(locale, '/roster'),
+    label: 'Roster',
+  },
+]
+
+---
+
+<html lang={Astro.currentLocale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <slot name="meta" />
+    <ViewTransitions />
+  </head>
+  <body>
+    <SiteHeader navigationLinks={items} />
+    <slot />
+  </body>
+</html>

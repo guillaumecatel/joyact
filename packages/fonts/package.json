@@ -1,0 +1,32 @@
+{
+  "name": "@joyact/fonts",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "exports": {
+    "./safiro": "./safiro/index.css",
+    "./safiro/safiro-bold-webfont.eot": "./safiro/safiro-bold-webfont.eot",
+    "./safiro/safiro-bolditalic-webfont.eot": "./safiro/safiro-bolditalic-webfont.eot",
+    "./safiro/safiro-medium-webfont.eot": "./safiro/safiro-medium-webfont.eot",
+    "./safiro/safiro-mediumitalic-webfont.eot": "./safiro/safiro-mediumitalic-webfont.eot",
+    "./safiro/safiro-regular-webfont.eot": "./safiro/safiro-regular-webfont.eot",
+    "./safiro/safiro-regularitalic-webfont.eot": "./safiro/safiro-regularitalic-webfont.eot",
+    "./safiro/safiro-semibold-webfont.eot": "./safiro/safiro-semibold-webfont.eot",
+    "./safiro/safiro-semibolditalic-webfont.eot": "./safiro/safiro-semibolditalic-webfont.eot",
+    "./safiro/safiro-bold-webfont.ttf": "./safiro/safiro-bold-webfont.ttf",
+    "./safiro/safiro-bolditalic-webfont.ttf": "./safiro/safiro-bolditalic-webfont.ttf",
+    "./safiro/safiro-medium-webfont.ttf": "./safiro/safiro-medium-webfont.ttf",
+    "./safiro/safiro-mediumitalic-webfont.ttf": "./safiro/safiro-mediumitalic-webfont.ttf",
+    "./safiro/safiro-regular-webfont.ttf": "./safiro/safiro-regular-webfont.ttf",
+    "./safiro/safiro-regularitalic-webfont.ttf": "./safiro/safiro-regularitalic-webfont.ttf",
+    "./safiro/safiro-semibold-webfont.ttf": "./safiro/safiro-semibold-webfont.ttf",
+    "./safiro/safiro-semibolditalic-webfont.ttf": "./safiro/safiro-semibolditalic-webfont.ttf"
+  },
+  "license": "MIT",
+  "files": [
+    "safiro"
+  ],
+  "scripts": {}
+}

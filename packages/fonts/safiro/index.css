@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-bold-webfont.eot');
+  src: url('safiro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-bold-webfont.woff2') format('woff2'),
+       url('safiro-bold-webfont.woff') format('woff'),
+       url('safiro-bold-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-bolditalic-webfont.eot');
+  src: url('safiro-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-bolditalic-webfont.woff2') format('woff2'),
+       url('safiro-bolditalic-webfont.woff') format('woff'),
+       url('safiro-bolditalic-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-medium-webfont.eot');
+  src: url('safiro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-medium-webfont.woff2') format('woff2'),
+       url('safiro-medium-webfont.woff') format('woff'),
+       url('safiro-medium-webfont.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-mediumitalic-webfont.eot');
+  src: url('safiro-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-mediumitalic-webfont.woff2') format('woff2'),
+       url('safiro-mediumitalic-webfont.woff') format('woff'),
+       url('safiro-mediumitalic-webfont.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-regular-webfont.eot');
+  src: url('safiro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-regular-webfont.woff2') format('woff2'),
+       url('safiro-regular-webfont.woff') format('woff'),
+       url('safiro-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-regularitalic-webfont.eot');
+  src: url('safiro-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-regularitalic-webfont.woff2') format('woff2'),
+       url('safiro-regularitalic-webfont.woff') format('woff'),
+       url('safiro-regularitalic-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-semibold-webfont.eot');
+  src: url('safiro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-semibold-webfont.woff2') format('woff2'),
+       url('safiro-semibold-webfont.woff') format('woff'),
+       url('safiro-semibold-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Safiro';
+  src: url('safiro-semibolditalic-webfont.eot');
+  src: url('safiro-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('safiro-semibolditalic-webfont.woff2') format('woff2'),
+       url('safiro-semibolditalic-webfont.woff') format('woff'),
+       url('safiro-semibolditalic-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}

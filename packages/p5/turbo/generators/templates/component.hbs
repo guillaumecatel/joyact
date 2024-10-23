@@ -1,0 +1,30 @@
+import { P5CanvasInstance, ReactP5Wrapper } from '@p5-wrapper/react'
+
+export interface {{ pascalCase name }}Props {
+  width: number
+  height: number
+}
+
+const sketch = (p5: P5CanvasInstance, props: {{ pascalCase name }}Props) => {
+  p5.setup = () => {
+    p5.createCanvas(props.width, props.height)
+    p5.background('#fffcf4')
+  }
+
+  p5.draw = () => {
+    if (p5.mouseIsPressed === true) {
+      p5.fill(0)
+    }
+    else {
+      p5.fill(255)
+    }
+
+    p5.circle(p5.mouseX, p5.mouseY, 100)
+  }
+}
+
+export const {{ pascalCase name }} = ({ width = 826, height = 1169 }: {{ pascalCase name }}Props) => (
+  <ReactP5Wrapper
+    sketch={p5 => sketch(p5, { width, height })}
+  />
+)

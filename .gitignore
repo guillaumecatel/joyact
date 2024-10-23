@@ -22,11 +22,8 @@ coverage
 .vercel
 
 # Build Outputs
-.next/
-out/
-build
 dist
-
+storybook-static
 
 # Debug
 npm-debug.log*
@@ -36,3 +33,10 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Generated types
+.astro/
+
+# jetbrains setting folder
+.idea/
+*storybook.log

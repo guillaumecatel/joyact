@@ -1,0 +1,15 @@
+{
+  "name": "@joyact/i18n",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {}
+}

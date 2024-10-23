@@ -1,0 +1,210 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Molecules / ServiceCard > should match snapshot for the ServiceCard component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-row gap-8 rounded-lg bg-pink p-8"
+      >
+        <div
+          class="flex flex-1 flex-col gap-20"
+        >
+          <div
+            class="flex-1 tracking-tighter"
+          >
+            <div
+              class="text-heading-1 font-sans font-black text-black leading-none"
+            >
+              JOY ACT.
+            </div>
+          </div>
+          <div
+            class="flex flex-row items-baseline gap-20 text-pretty"
+          >
+            <div
+              class="w-2/3"
+            >
+              <div
+                class="text-heading-3 font-serif font-light text-black"
+                style="line-height: 1.1;"
+              >
+                It's the core of your company's identity. It guides all business decisions, ensuring a consistent and impactful presence in the market.
+              </div>
+            </div>
+            <div
+              class="w-1/3"
+            >
+              <div
+                class="text-body font-sans font-light text-black"
+              >
+                <ul
+                  class="flex flex-col gap-2"
+                >
+                  <li>
+                    Research & Insights
+                  </li>
+                  <li>
+                    Unique Ways
+                  </li>
+                  <li>
+                    Purpose, Mission, Vision
+                  </li>
+                  <li>
+                    Value Proposition
+                  </li>
+                  <li>
+                    Personality Traits
+                  </li>
+                  <li>
+                    Verbal Identity
+                  </li>
+                  <li>
+                    Naming
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative aspect-video w-[442px] overflow-hidden rounded-lg bg-black/10"
+        >
+          <img
+            alt=""
+            class="absolute inset-0 size-full object-cover"
+            src="https://www.popnmusic.fr/wp-content/uploads/2023/01/CoS-HERO_Idles-1200x675-1-3443529.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-row gap-8 rounded-lg bg-pink p-8"
+    >
+      <div
+        class="flex flex-1 flex-col gap-20"
+      >
+        <div
+          class="flex-1 tracking-tighter"
+        >
+          <div
+            class="text-heading-1 font-sans font-black text-black leading-none"
+          >
+            JOY ACT.
+          </div>
+        </div>
+        <div
+          class="flex flex-row items-baseline gap-20 text-pretty"
+        >
+          <div
+            class="w-2/3"
+          >
+            <div
+              class="text-heading-3 font-serif font-light text-black"
+              style="line-height: 1.1;"
+            >
+              It's the core of your company's identity. It guides all business decisions, ensuring a consistent and impactful presence in the market.
+            </div>
+          </div>
+          <div
+            class="w-1/3"
+          >
+            <div
+              class="text-body font-sans font-light text-black"
+            >
+              <ul
+                class="flex flex-col gap-2"
+              >
+                <li>
+                  Research & Insights
+                </li>
+                <li>
+                  Unique Ways
+                </li>
+                <li>
+                  Purpose, Mission, Vision
+                </li>
+                <li>
+                  Value Proposition
+                </li>
+                <li>
+                  Personality Traits
+                </li>
+                <li>
+                  Verbal Identity
+                </li>
+                <li>
+                  Naming
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative aspect-video w-[442px] overflow-hidden rounded-lg bg-black/10"
+      >
+        <img
+          alt=""
+          class="absolute inset-0 size-full object-cover"
+          src="https://www.popnmusic.fr/wp-content/uploads/2023/01/CoS-HERO_Idles-1200x675-1-3443529.jpg"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,39 @@
+{
+  "name": "@joyact/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "keywords": [],
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "./dist"
+  ],
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "import": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.mjs",
+          "import": "./dist/index.mjs",
+          "require": "./dist/index.js"
+        }
+      }
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "test": "vitest",
+    "clean": "shx rm -rf {node_modules,dist,coverage,.turbo}"
+  },
+  "devDependencies": {
+    "@joyact/typescript-config": "workspace:*",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
+  }
+}

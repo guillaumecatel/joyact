@@ -1,0 +1,64 @@
+{
+  "name": "@joyact/p5",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "./dist"
+  ],
+  "publishConfig": {
+    "exports": {
+      "./poster-sample": "./poster-sample/PosterSample.tsx",
+      ".": {
+        "import": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.mjs",
+          "import": "./dist/index.mjs",
+          "require": "./dist/index.js"
+        }
+      }
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "storybook build",
+    "dev": "storybook dev -p 6007",
+    "type-check": "tsc --noEmit",
+    "test": "vitest",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "@p5-wrapper/react": "^4.4.2",
+    "p5": "^1.11.0",
+    "p5.js-svg": "^1.5.1"
+  },
+  "devDependencies": {
+    "@joyact/fonts": "workspace:*",
+    "@joyact/typescript-config": "workspace:*",
+    "@joyact/utils": "workspace:*",
+    "@storybook/addon-essentials": "^8.3.6",
+    "@storybook/addon-interactions": "^8.3.6",
+    "@storybook/addon-links": "^8.3.6",
+    "@storybook/addon-onboarding": "^8.3.6",
+    "@storybook/blocks": "^8.3.6",
+    "@storybook/react": "^8.3.6",
+    "@storybook/react-vite": "^8.3.6",
+    "@storybook/test": "^8.3.6",
+    "@types/p5": "^1.7.6",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "storybook": "^8.3.6",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9",
+    "vitest": "^2.1.3"
+  }
+}
